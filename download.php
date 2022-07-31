@@ -24,7 +24,7 @@ function download_file( $url ){
       case "ppt": $ctype="application/vnd.ms-powerpoint"; break;
       case "gif": $ctype="image/gif"; break;
       case "png": $ctype="image/png"; break;
-	    case "svg": $ctype="image/svg+xml"; break;
+      case "svg": $ctype="image/svg+xml"; break;
       case "jpeg":
       case "jpg": $ctype="image/jpg"; break;
       default: $ctype="application/force-download";
